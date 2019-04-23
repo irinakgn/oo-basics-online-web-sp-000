@@ -64,3 +64,4 @@ shoe.color = 'red'
 shoe.size = 9.5
 shoe.material = 'suede'
 shoe.condition = "tattered"
+shoe.coble = "Your shoe is as good as new!"
