@@ -43,3 +43,4 @@ end
 shoe = Shoe.new('Nike')
 shoe.color = 'red'
 shoe.size = 9.5
+shoe.material = 'suede'
