@@ -14,6 +14,15 @@ class Shoe
   def brand
     @brand
   end
+
+  def brand=(color)
+    @color = color
+  end
+
+  def color
+    @color
+  end
 end
 
 shoe = Shoe.new('Nike')
+shoe.color = 'red'
