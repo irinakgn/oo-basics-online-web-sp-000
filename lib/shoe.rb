@@ -38,9 +38,18 @@ class Shoe
   def material
     @material
   end
+
+  def condition=(condition)
+    @condition = condition
+  end
+
+  def condition
+    @condition
+  end
 end
 
 shoe = Shoe.new('Nike')
 shoe.color = 'red'
 shoe.size = 9.5
 shoe.material = 'suede'
+shoe.condition = "tattered"
