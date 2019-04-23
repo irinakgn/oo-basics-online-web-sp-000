@@ -7,8 +7,8 @@ class Shoe
     @title
   end
 
-  def brand=(title)
-    @brand = title
+  def brand=(brand)
+    @brand = brand
   end
 
   def brand=
