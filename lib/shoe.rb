@@ -55,11 +55,11 @@ class Shoe
   end
 
   def cobble
-    @cobble
+    puts "Your shoe is as good as new!"
   end
 end
 
-puts "Your shoe is as good as new!"
+
 shoe = Shoe.new('Nike')
 shoe.color = 'red'
 shoe.size = 9.5
