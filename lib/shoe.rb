@@ -61,4 +61,3 @@ shoe.color = 'red'
 shoe.size = 9.5
 shoe.material = 'suede'
 shoe.condition = "tattered"
-shoe.condition = 'new'
