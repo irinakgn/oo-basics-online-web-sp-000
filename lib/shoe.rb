@@ -46,6 +46,10 @@ class Shoe
   def condition
     @condition
   end
+
+  def cobble=(cobble)
+    @cobble = cobble
+  end
 end
 
 shoe = Shoe.new('Nike')
