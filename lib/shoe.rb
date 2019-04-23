@@ -51,7 +51,7 @@ class Shoe
   def cobble=(cobble)
     @cobble = cobble
 
-  #  self.condition = 'new'
+   self.condition = 'new'
   end
 
   def cobble
@@ -64,4 +64,4 @@ shoe.color = 'red'
 shoe.size = 9.5
 shoe.material = 'suede'
 shoe.condition = "tattered"
-shoe.coble = "Your shoe is as good as new!"
+shoe.cobble = "Your shoe is as good as new!"
