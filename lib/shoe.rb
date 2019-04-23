@@ -51,9 +51,9 @@ class Shoe
   def cobble=(cobble)
     @cobble = cobble
 
-    if @condition == 'new'
+
       puts '"Your shoe is as good as new!'
-    end
+
   end
 
   def cobble
