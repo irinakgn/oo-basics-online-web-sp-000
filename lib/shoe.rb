@@ -30,6 +30,14 @@ class Shoe
   def size
     @size
   end
+
+  def material=(size)
+    @material = material
+  end
+
+  def material
+    @material
+  end
 end
 
 shoe = Shoe.new('Nike')
