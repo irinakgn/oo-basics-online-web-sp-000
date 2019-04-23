@@ -50,8 +50,7 @@ class Shoe
 
   def cobble=(cobble)
     @cobble = cobble
-   
-   self.condition = 'new'
+    self.condition = 'new'
   end
 
   def cobble
