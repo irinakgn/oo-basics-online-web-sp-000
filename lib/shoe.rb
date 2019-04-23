@@ -50,6 +50,10 @@ class Shoe
   def cobble=(cobble)
     @cobble = cobble
   end
+
+  def cobble
+    @cobble
+  end
 end
 
 shoe = Shoe.new('Nike')
