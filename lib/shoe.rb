@@ -41,7 +41,6 @@ class Shoe
 
   def condition=(condition)
     @condition = condition
-
   end
 
   def condition
@@ -49,8 +48,9 @@ class Shoe
   end
 
   def cobble=(cobble)
-    @cobble = cobble
     self.condition = 'new'
+    @cobble = cobble
+
   end
 
   def cobble
