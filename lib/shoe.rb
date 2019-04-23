@@ -15,3 +15,5 @@ class Shoe
     @brand
   end
 end
+
+shoe = Shoe.new
